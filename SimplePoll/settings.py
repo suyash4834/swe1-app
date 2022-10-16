@@ -31,9 +31,9 @@ SECRET_KEY = os.environ.get(
 # DEBUG = True
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = [    
+ALLOWED_HOSTS = [
     "app-env.eba-gjin3bpj.us-east-1.elasticbeanstalk.com",
-    "127.0.0.1",    
+    "127.0.0.1",
 ]
 
 

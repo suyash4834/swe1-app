@@ -23,7 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = 'paiaa8okh%_^9p718u0-pa5y&9&r%c4yhjm-*x0(xl7$q5$g+)'
 
 
-
 SECRET_KEY = os.environ.get(
     "DJANGO_SECRET_KEY", "paiaa8okh%_^9p718u0-pa5y&9&r%c4yhjm-*x0(xl7$q5$g+)"
 )

@@ -30,3 +30,5 @@ deploy:
   app: "swe1-app"
   env: "app-env"
   bucket_name: "elasticbeanstalk-us-east-1-995881036885"
+  on:
+      branch: main

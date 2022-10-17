@@ -32,6 +32,7 @@ class DetailView(generic.DetailView):
 
 
 class ResultsView(generic.DetailView):
+    # using drf
     model = Question
     template_name = "PollApp/results.html"
 

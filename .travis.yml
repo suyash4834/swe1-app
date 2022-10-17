@@ -22,8 +22,7 @@ after_success:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id:
-    secure: "AKIA6PXZCVRK7HSUH5H7"
+  access_key_id: "AKIA6PXZCVRK7HSUH5H7"
   secret_access_key:
     secure: "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"
   region: "us-east-1"

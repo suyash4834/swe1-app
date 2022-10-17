@@ -19,3 +19,14 @@ script:
 
 after_success:
   - coveralls
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIA6PXZCVRK7HSUH5H7"
+  secret_access_key:
+    secure: "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"
+  region: "us-east-1"
+  app: "swe1-app"
+  env: "app-env"
+  bucket_name: "elasticbeanstalk-us-east-1-995881036885"

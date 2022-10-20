@@ -1,4 +1,4 @@
-# Suyash's Polling App, Chocolate or Cheese
+# Suyash's Polling App, Chocolate or Cheese >
 
 main: 
 [![Build Status](https://app.travis-ci.com/suyash4834/swe1-app.svg?branch=main)](https://app.travis-ci.com/github/suyash4834/swe1-app)
